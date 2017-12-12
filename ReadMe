@@ -1,0 +1,62 @@
+*************DIFF B/W DEPENDENT AND INDEPENDENT VARIABLE************
+
+An independent variable is the variable that is changed or controlled in a scientific experiment to test the
+effects on the dependent variable.
+
+             For example, a scientist wants to see if the brightness of light has any effect on a moth being attracted to the light. The brightness of the light is controlled by the scientist. This would be the independent variable. How the moth reacts to the different light
+              levels (distance to light source) would be the dependent variable.
+
+********************categorical variable**************************
+   A categorical variable is a value that variables in a study take; the value varies from person to person.
+
+   If there is some kind of order, then those variables would be ordinal variables and not categorical variables. For example, you could categorize house prices by cheap, moderate and expensive. Although these are categories,
+   there is a clear order (with cheap on the bottom and expensive on top).
+
+   A nominal variable is another name for a categorical variable. Nominal variables have two or more categories without having any kind of natural order.
+   they are variables with no numeric value, such as occupation or political party affiliation
+
+Gender (Male, Female, Transgender).
+Eye color (Blue, Green, Brown, Hazel).
+Type of house (Bungalow, Duplex, Ranch).
+Type of pet (Dog, Cat, Rodent, Fish, Bird).
+Genotype ( AA, Aa, or aa).
+
+
+Cannot be quantified. In other words, you can’t perform arithmetic operations on them,
+like addition or subtraction,
+ or logical operations like “equal to” or “greater than” on them.
+
+
+
+
+
+
+
+
+*********************************************LOGISTIC REGRESSSION******************
+i)it is "s" shaped curved ,it take value between o and 1 ,but never actually at those limits
+ii)A key difference between linear regression and logistics regression is that the value being modeled is a
+binary value  0 and 1 rather than a numeric value
+
+
+
+
+
+
+
+defination :
+        “Logistic regression measures the relationship between the categorical dependent variable and
+         one or more independent variables by
+         estimating probabilities using a logistic function” (Wikipedia)
+
+     It uses a black box function to understand the relation between the categorical dependent variable and
+      the independent variables.
+      This black box function is popularly known as the Softmax funciton.
+
+*******************
+confusion matrix
+A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier")
+ on a set of test data for which the true values are known.
+
+
+
