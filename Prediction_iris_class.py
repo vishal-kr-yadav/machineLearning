@@ -1,17 +1,17 @@
 # Load libraries
 import pandas
-#from pandas.tools.plotting import scatter_matrix
-import matplotlib.pyplot as plt
+# #from pandas.tools.plotting import scatter_matrix
+# import matplotlib.pyplot as plt
 from sklearn import model_selection
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import accuracy_score
+# from sklearn.metrics import classification_report
+# from sklearn.metrics import confusion_matrix
+# from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import SVC
+# from sklearn.tree import DecisionTreeClassifier
+# from sklearn.neighbors import KNeighborsClassifier
+# from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+# from sklearn.naive_bayes import GaussianNB
+# from sklearn.svm import SVC
 
 
 
@@ -32,10 +32,9 @@ scoring = 'accuracy'
 # X_train and Y_train for preparing models and a X_validation and Y_validation sets that we can use later.
 #print(Y_validation)
 # Spot Check Algorithms
-
 # # Make predictions on validation dataset
 lr = LogisticRegression()
 lr.fit(X_train, Y_train)
-T_validation=[[7.0,3.2,4.7,1.4,]]
+T_validation=[[5.0,3.3,1.4,0.2]]
 predictions = lr.predict(T_validation)
 print(predictions)

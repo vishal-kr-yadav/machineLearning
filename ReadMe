@@ -36,7 +36,7 @@ like addition or subtraction,
 *********************************************LOGISTIC REGRESSSION******************
 i)it is "s" shaped curved ,it take value between o and 1 ,but never actually at those limits
 ii)A key difference between linear regression and logistics regression is that the value being modeled is a
-binary value  0 and 1 rather than a numeric value
+binary value  0 and 1 rather than a numeric value.
 
 
 

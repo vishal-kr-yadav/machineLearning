@@ -1,0 +1,10 @@
+Logistic regression is best used to predict binary outcome(1/0,yes or no) given a set of independent variable .Logistic regression is a part of a larger class named  as Generalized	Linear Model .
+
+(checked it)its proved to suit those critirea which was not supposed to be efficent by linear regression
+
+Generalized Linear Mode(glm) equation:
+					g(E(y))=α + βx1 + γx2
+			g():is the link function
+			E():is the expectation of target variables
+			α + βx1 + γx2: is the linear(α,β,γ to be predicted)
+
