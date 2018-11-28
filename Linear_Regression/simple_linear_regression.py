@@ -51,3 +51,4 @@ a=rmse(predicted_value,dataset['Y'])
 print(a)
 
 # https://machinelearningmastery.com/simple-linear-regression-tutorial-for-machine-learning/
+
