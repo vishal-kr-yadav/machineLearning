@@ -1,4 +1,4 @@
-#####Outlier Detection
+**Outlier Detection**  
 Data exploration is the backbone of any machine learning algorithm.
 Before jumping into the main task everyone needs to put lots of
 effort in data. There is a universal truth that everyone must agree 
@@ -15,18 +15,18 @@ So,
 - Anything that is fluctuating from there usual behaviour.  
 - Unusal, Unlike elements, away from the standard, different from normal.  
 
-**Why should i care about outlier**
+**Why should i care about outlier**  
 You should, if you are dealing with any type of algorithm, you should aware about the outlier within you dataset.
 Once a wisest of wise man said, you always understimate the value of salt in presence of some famous spice, but once you missed the salt in your food, all the spices will become tasteless.
 That's the power of salt and here outlier detection is a salt for your algorithm. It's presence is not look like that important from top, but deep inside the algorithm, outlier detection will always boost your algorithm.
-Enough non-practical explanation, give me a real life example.
-Okay sir,
-Let's say i have a dataset:
-a=[3,6,101,9,4,5]
-b=[3,6,8,9,4,5]
-Now let me calculate a simple mean for the two dataset
-mean of a : 21.33
-mean of b : 5.833
+Enough non-practical explanation, give me a real life example.  
+Okay sir,  
+Let's say i have a dataset:  
+a=[3,6,101,9,4,5]  
+b=[3,6,8,9,4,5]  
+Now let me calculate a simple mean for the two dataset  
+mean of a : 21.33  
+mean of b : 5.833  
 This is the impact that the OUTLIER  can cause on your data, there is significant difference between the two mean. What i faced as of now in my experiences to detect/predict anything in machine learning 
 or any similar kind of stuff,
  we need to set some sort of thresholds, sometimes we set thresholds explicitly or used any library that internally used thresholds to decide/predict.
@@ -34,21 +34,24 @@ So let's stand on the fact, we need thresholds.
 So the next question, how we decide the thresholds or any library set the thresholds. The aanswer is pretty simple
 based on some statictics calculation, like mean,median,mode,variance,standard deviation etc.. that helps to set the thresholds for any algorithm.
 And we just see above the example of mean with and without outlier data.
-This kind of significant difference in mean(or other stat) pushed the thresholds in un appropriate range just because of few data, that's affecting miserably  by there presence in the data.
+This kind of significant difference in mean(or other stat) pushed the thresholds in un appropriate range just because of few data, that's affecting miserably  by there presence in the data.  
+
 
  
-**How to check whether my data contain any outlier or not**  
+**How to check whether my data contain any outlier or not**    
 There are several way to check and aplly some filter on your dataset
 to find the outlier from your dataset. 
 But after applying some technique, i found the best way and less complex is to take help of **boxplot**.  
-From this way you will be able to visualize the outlier on your screen and also list down the outlier data
+From this way you will be able to visualize the outlier on your screen and also list down the outlier data.  
 
-**After getting the outlier what should i do**
+
+**After getting the outlier what should i do**  
 There are several ways, depending upon your use cases.
 -  Get rid from the outlier by deleting it from the dataset
--  Replace the outlier with some more relevant value, its not a good approach in my point of view, but it also work in some of the scenario.
+-  Replace the outlier with some more relevant value, its not a good approach in my point of view, but it also work in some of the scenario.  
 
-**Which language is ideal for detecting outlier**
+
+**Which language is ideal for detecting outlier**  
 There are no hard and fast rule or language barier while detecting outlier. You can go with any language in some language you need to write the logic for detecting outlier in some language they provide some mazic library by which in couple of lines of code you can detect outlier and be a hero.
 Don't confuse me !!!
 Okay
