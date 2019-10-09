@@ -5,7 +5,7 @@ Installation:
 **Step-2**  
 Understanding the significance of each script.
 - outlier_detection.py : 
-                        - it's reading a csv file, in which there are some outlier present.  
+                        - read a csv file, in which there are some outlier present.  
                         - Find the outlier using box-plot i.e IQR.  
                         - Save the clean data.  
 - input_data.txt : it was my input file, i have generated using a script.  
